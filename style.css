@@ -1,4 +1,34 @@
 *{
     box-sizing: border-box;
+    
+}
+
+
+body{
+    background-image: url('images/nature.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-card{
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    max-width: 436px;
+    line-height: 1.7rem;
+    margin: 0 1rem;
+}
+
+#person{
+    text-align: right;
+    font-weight: 600;
+    margin-top: 1rem;
 }
