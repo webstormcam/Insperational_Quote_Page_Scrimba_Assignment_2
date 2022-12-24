@@ -20,3 +20,20 @@ const quotes = [
         author: "Justin Bieber"
     }
 ]
+
+
+
+let statement = document.getElementById('quote')
+let person = document.getElementById('person')
+
+
+function RandomQuote (){
+   let Rando_Num =  Math.floor(Math.random()*quotes.length);
+   console.log(`${quotes[Rando_Num].quote} ${quotes[Rando_Num].author}`)
+   console.log(Rando_Num)
+    
+}
+
+
+
+RandomQuote()
