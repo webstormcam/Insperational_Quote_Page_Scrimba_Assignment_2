@@ -2,28 +2,28 @@ const quotes = [
     {
         quote: "Today is your opportunity to build the tomorrow you want.",
         author: "Ken Poirot",
-        background: "images/nature.jpg"
+        background: "Images/nature.jpg"
     },
     {
         quote: "When you have a dream, you've got to grab it and never let go.",
         author: "Carol Burnett",
-        background: "images/Old_structure.jpg"
+        background: "Images/Old_structure.jpg"
 
     },
     {
         quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
         author: "Winston Churchill",
-        background: "images/Tower.jpg"
+        background: "Images/Tower.jpg"
     },
     {
         quote: "You define your own life. Don't let other people write your script.",
         author: "Oprah Winfrey",
-        background:"images/Bridge.jpg"
+        background:"Images/Bridge.jpg"
     },
     {
         quote: "Someone once told me to never dream. I said NEVER SAY NEVER",
         author: "Justin Bieber",
-        background:"images/Baseball.jpg"
+        background:"Images/Baseball.jpg"
     }
 ]
 
