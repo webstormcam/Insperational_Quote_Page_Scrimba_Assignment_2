@@ -35,9 +35,7 @@ let person = document.getElementById('person')
 
 function RandomQuote (){
    let Rando_Num =  Math.floor(Math.random()*quotes.length);
-   console.log(`${quotes[Rando_Num].quote} ${quotes[Rando_Num].author}`)
-   console.log(Rando_Num)
-    document.body.style.backgroundImage= `url(${quotes[Rando_Num].background})`;
+    // document.body.style.backgroundImage= `url(${quotes[Rando_Num].background})`;
    statement.innerHTML=`${quotes[Rando_Num].quote}`;
    person.innerHTML=`- ${quotes[Rando_Num].author}`;
 
