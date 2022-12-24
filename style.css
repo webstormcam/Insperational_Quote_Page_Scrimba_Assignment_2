@@ -27,6 +27,11 @@ body{
    
 }
 
+#quote-card:hover{
+    background-color: aquamarine;
+    color: burlywood;
+}
+
 #person{
     text-align: right;
     font-weight: 600;
