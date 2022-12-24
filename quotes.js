@@ -31,9 +31,12 @@ function RandomQuote (){
    let Rando_Num =  Math.floor(Math.random()*quotes.length);
    console.log(`${quotes[Rando_Num].quote} ${quotes[Rando_Num].author}`)
    console.log(Rando_Num)
+
+   statement.innerHTML=`${quotes[Rando_Num].quote}`
+   person.innerHTML=`- ${quotes[Rando_Num].author}`
     
 }
 
 
 
-RandomQuote()
+window.onload = RandomQuote;

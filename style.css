@@ -14,12 +14,12 @@ body{
     align-items: center;
 }
 
-a{
+.link{
     text-decoration: none;
     color: black;
 }
 
-#quote-card{
+.quote-card{
     background-color: #ffffff;
     margin: 0 auto;
     display: flex;
@@ -33,7 +33,7 @@ a{
    
 }
 
-#quote-card:hover{
+.quote-card:hover{
     background-color: aquamarine;
     color: burlywood;
 }
